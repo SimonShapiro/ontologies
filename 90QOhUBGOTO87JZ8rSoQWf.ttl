@@ -1,0 +1,280 @@
+@prefix : <http://webprotege.stanford.edu/project/90QOhUBGOTO87JZ8rSoQWf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/90QOhUBGOTO87JZ8rSoQWf> .
+
+<http://webprotege.stanford.edu/project/90QOhUBGOTO87JZ8rSoQWf> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R1DnB2UVmaxRw4fXKEZujb
+<http://webprotege.stanford.edu/R1DnB2UVmaxRw4fXKEZujb> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RCGJVgWr0AYSwtGmQzqAi5B> ;
+                                                        rdfs:label "has amount" .
+
+
+###  http://webprotege.stanford.edu/R7qtSYhRG72V6C5PDYs7QHT
+<http://webprotege.stanford.edu/R7qtSYhRG72V6C5PDYs7QHT> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RWWRz7dnAlcRyjmZYNpDUI> ;
+                                                         rdfs:label "Month To Date Inflow" .
+
+
+###  http://webprotege.stanford.edu/R8I3sgOW8fNcgCSoKnfniw6
+<http://webprotege.stanford.edu/R8I3sgOW8fNcgCSoKnfniw6> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> ;
+                                                         rdfs:label "period starting date" .
+
+
+###  http://webprotege.stanford.edu/R8ngMazyEvbbwQ3B42JSl0p
+<http://webprotege.stanford.edu/R8ngMazyEvbbwQ3B42JSl0p> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/RIcRIByIFXvd0B6l6r6ILw> ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC> ;
+                                                         rdfs:label "Outflows" .
+
+
+###  http://webprotege.stanford.edu/R99AiXsMg6G0IW0TxnkNgYn
+<http://webprotege.stanford.edu/R99AiXsMg6G0IW0TxnkNgYn> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC> ;
+                                                         rdfs:label "is identified by" .
+
+
+###  http://webprotege.stanford.edu/R9GqbOcLcYQl6TFrmEsn5AT
+<http://webprotege.stanford.edu/R9GqbOcLcYQl6TFrmEsn5AT> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> ;
+                                                         rdfs:label "as at date" .
+
+
+###  http://webprotege.stanford.edu/R9afediB53xGj5pso8iS6A
+<http://webprotege.stanford.edu/R9afediB53xGj5pso8iS6A> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RBlxFS1QGJ4gtjQPAYCR48a> ;
+                                                        rdfs:label "has a currency"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R9jpTTii96HBseZPqDIGW0
+<http://webprotege.stanford.edu/R9jpTTii96HBseZPqDIGW0> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RDynmSZJnCEm4GmYKUMRneT> ;
+                                                        rdfs:label "Financial Balance" .
+
+
+###  http://webprotege.stanford.edu/RCszwMCk3fpwhhU9IkNXvZV
+<http://webprotege.stanford.edu/RCszwMCk3fpwhhU9IkNXvZV> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/R9jpTTii96HBseZPqDIGW0> ;
+                                                         rdfs:label "Current Balance" .
+
+
+###  http://webprotege.stanford.edu/RDXfdWW62HRuQnNQ7nMhHo6
+<http://webprotege.stanford.edu/RDXfdWW62HRuQnNQ7nMhHo6> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/R8ngMazyEvbbwQ3B42JSl0p> ;
+                                                         rdfs:label "Month To Date Outflow" .
+
+
+###  http://webprotege.stanford.edu/RIcRIByIFXvd0B6l6r6ILw
+<http://webprotege.stanford.edu/RIcRIByIFXvd0B6l6r6ILw> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC> ;
+                                                        rdfs:label "Financial Flows" .
+
+
+###  http://webprotege.stanford.edu/RWWRz7dnAlcRyjmZYNpDUI
+<http://webprotege.stanford.edu/RWWRz7dnAlcRyjmZYNpDUI> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf <http://webprotege.stanford.edu/RIcRIByIFXvd0B6l6r6ILw> ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC> ;
+                                                        rdfs:label "Inflows" .
+
+
+###  http://webprotege.stanford.edu/RjXPfaUvlGfNiU0aRJBTVq
+<http://webprotege.stanford.edu/RjXPfaUvlGfNiU0aRJBTVq> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:range <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> ;
+                                                        rdfs:label "period end date" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R7hYhkJmsKguinTtltdbred
+<http://webprotege.stanford.edu/R7hYhkJmsKguinTtltdbred> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "date representation" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R7mkvLMEPrStw33qU1N0vGK
+<http://webprotege.stanford.edu/R7mkvLMEPrStw33qU1N0vGK> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RD3VV4WVRx8ZDK1OeXbFtd2> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R1DnB2UVmaxRw4fXKEZujb> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RCGJVgWr0AYSwtGmQzqAi5B>
+                                                                         ] ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9afediB53xGj5pso8iS6A> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RBlxFS1QGJ4gtjQPAYCR48a>
+                                                                         ] ;
+                                                         rdfs:label "Financial Amount"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R7okpuwv1KZHLhiTcWFeaWH
+<http://webprotege.stanford.edu/R7okpuwv1KZHLhiTcWFeaWH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC> ;
+                                                         rdfs:label "Inflow" .
+
+
+###  http://webprotege.stanford.edu/R7wkYRqIJSKZgYxaUgnCu3Z
+<http://webprotege.stanford.edu/R7wkYRqIJSKZgYxaUgnCu3Z> rdf:type owl:Class ;
+                                                         rdfs:label "Role" .
+
+
+###  http://webprotege.stanford.edu/R8rwMJ8kJ1kKIUyJ9Y0nEK6
+<http://webprotege.stanford.edu/R8rwMJ8kJ1kKIUyJ9Y0nEK6> rdf:type owl:Class ;
+                                                         rdfs:label "Economic Descriptor" .
+
+
+###  http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s
+<http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R7hYhkJmsKguinTtltdbred> ;
+                                                                           owl:someValuesFrom xsd:dateTime
+                                                                         ] ;
+                                                         rdfs:label "Date" .
+
+
+###  http://webprotege.stanford.edu/RBGCZzDAxcJX9ngHIO3t289
+<http://webprotege.stanford.edu/RBGCZzDAxcJX9ngHIO3t289> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7wkYRqIJSKZgYxaUgnCu3Z> ;
+                                                         rdfs:label "Customer" .
+
+
+###  http://webprotege.stanford.edu/RBlxFS1QGJ4gtjQPAYCR48a
+<http://webprotege.stanford.edu/RBlxFS1QGJ4gtjQPAYCR48a> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8rwMJ8kJ1kKIUyJ9Y0nEK6> ;
+                                                         rdfs:label "Currency" .
+
+
+###  http://webprotege.stanford.edu/RC769vxBdH4Ftn9zn6UVvSB
+<http://webprotege.stanford.edu/RC769vxBdH4Ftn9zn6UVvSB> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> ;
+                                                         rdfs:label "End Date" .
+
+
+###  http://webprotege.stanford.edu/RCGJVgWr0AYSwtGmQzqAi5B
+<http://webprotege.stanford.edu/RCGJVgWr0AYSwtGmQzqAi5B> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8rwMJ8kJ1kKIUyJ9Y0nEK6> ;
+                                                         rdfs:label "Amount" .
+
+
+###  http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC
+<http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC> rdf:type owl:Class ;
+                                                         rdfs:label "Identifier" .
+
+
+###  http://webprotege.stanford.edu/RD3VV4WVRx8ZDK1OeXbFtd2
+<http://webprotege.stanford.edu/RD3VV4WVRx8ZDK1OeXbFtd2> rdf:type owl:Class ;
+                                                         rdfs:label "Measure" .
+
+
+###  http://webprotege.stanford.edu/RDynmSZJnCEm4GmYKUMRneT
+<http://webprotege.stanford.edu/RDynmSZJnCEm4GmYKUMRneT> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7mkvLMEPrStw33qU1N0vGK> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R9GqbOcLcYQl6TFrmEsn5AT> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s>
+                                                                         ] ;
+                                                         rdfs:label "Financial Amount At A Point In Time"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RE62pFg53sxUSByghlId6N
+<http://webprotege.stanford.edu/RE62pFg53sxUSByghlId6N> rdf:type owl:Class ;
+                                                        rdfs:label "Product" .
+
+
+###  http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS
+<http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RE62pFg53sxUSByghlId6N> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R7qtSYhRG72V6C5PDYs7QHT> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R7okpuwv1KZHLhiTcWFeaWH>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R99AiXsMg6G0IW0TxnkNgYn> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RCszwMCk3fpwhhU9IkNXvZV> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RDynmSZJnCEm4GmYKUMRneT>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RDXfdWW62HRuQnNQ7nMhHo6> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RZ3IOgqj8mR2HSXRnsXURM>
+                                                                        ] ;
+                                                        rdfs:label "Transactional Account" .
+
+
+###  http://webprotege.stanford.edu/RUKYgo3qxC9RT48ib07Adk
+<http://webprotege.stanford.edu/RUKYgo3qxC9RT48ib07Adk> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBGCZzDAxcJX9ngHIO3t289> ;
+                                                        rdfs:label "Retail Customer" .
+
+
+###  http://webprotege.stanford.edu/RZ3IOgqj8mR2HSXRnsXURM
+<http://webprotege.stanford.edu/RZ3IOgqj8mR2HSXRnsXURM> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC> ;
+                                                        rdfs:label "Outflow" .
+
+
+###  http://webprotege.stanford.edu/RZTVboEx3Iu6tF0O5egIiO
+<http://webprotege.stanford.edu/RZTVboEx3Iu6tF0O5egIiO> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9MOIh8zSdMiB16HiOWjL8s> ;
+                                                        rdfs:label "Start Date" .
+
+
+###  http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC
+<http://webprotege.stanford.edu/RiZ5kjbWl8b1UAk996BPpC> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R7mkvLMEPrStw33qU1N0vGK> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R8I3sgOW8fNcgCSoKnfniw6> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RZTVboEx3Iu6tF0O5egIiO>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RjXPfaUvlGfNiU0aRJBTVq> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RC769vxBdH4Ftn9zn6UVvSB>
+                                                                        ] ;
+                                                        rdfs:label "Financial Aggregate Over A Period"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/Rwn5UMisbOeBbuu5niwFQj
+<http://webprotege.stanford.edu/Rwn5UMisbOeBbuu5niwFQj> rdf:type owl:Class ;
+                                                        rdfs:label "Party" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://webprotege.stanford.edu/R9X5bupkSlXQC25Qi2wj4BN
+<http://webprotege.stanford.edu/R9X5bupkSlXQC25Qi2wj4BN> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RFq9XzzciK95arOYP0v3gS> ;
+                                                         rdfs:label "#27" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
