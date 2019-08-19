@@ -40,6 +40,16 @@
                                                          rdfs:label "Outflows" .
 
 
+<<<<<<< HEAD
+=======
+###  http://webprotege.stanford.edu/R99AiXsMg6G0IW0TxnkNgYn
+<http://webprotege.stanford.edu/R99AiXsMg6G0IW0TxnkNgYn> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC> ;
+                                                         rdfs:label "is identified by" .
+
+
+>>>>>>> bdf9a1f1a0d9f1926dec3b034ab61c8dac7b4181
 ###  http://webprotege.stanford.edu/R9GqbOcLcYQl6TFrmEsn5AT
 <http://webprotege.stanford.edu/R9GqbOcLcYQl6TFrmEsn5AT> rdf:type owl:ObjectProperty ;
                                                          rdfs:subPropertyOf owl:topObjectProperty ;
@@ -176,6 +186,14 @@
                                                          rdfs:label "Amount" .
 
 
+<<<<<<< HEAD
+=======
+###  http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC
+<http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC> rdf:type owl:Class ;
+                                                         rdfs:label "Identifier" .
+
+
+>>>>>>> bdf9a1f1a0d9f1926dec3b034ab61c8dac7b4181
 ###  http://webprotege.stanford.edu/RD3VV4WVRx8ZDK1OeXbFtd2
 <http://webprotege.stanford.edu/RD3VV4WVRx8ZDK1OeXbFtd2> rdf:type owl:Class ;
                                                          rdfs:label "Measure" .
@@ -204,6 +222,13 @@
                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/R7okpuwv1KZHLhiTcWFeaWH>
                                                                         ] ,
                                                                         [ rdf:type owl:Restriction ;
+<<<<<<< HEAD
+=======
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R99AiXsMg6G0IW0TxnkNgYn> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RCc3GKnCFXF5pKYNamOsvWC>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+>>>>>>> bdf9a1f1a0d9f1926dec3b034ab61c8dac7b4181
                                                                           owl:onProperty <http://webprotege.stanford.edu/RCszwMCk3fpwhhU9IkNXvZV> ;
                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RDynmSZJnCEm4GmYKUMRneT>
                                                                         ] ,
